@@ -1,0 +1,47 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2!important;
+			}
+			
+			.top{
+				background: url(img/xiangqing/bg.fw.png) no-repeat;
+				background-size: 100%;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top h2{
+				color: white;
+			}
+			.bar .title.title-left {
+			    text-align: center;
+			}
+			.content .item:nth-child(1){
+				margin-top: 20px;
+			}
+			
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">名店海报</h2>
+		</ion-header-bar>
+		<ion-content class="content">
+			<ion-list ui-sref="^.KTVsuge">
+				<ion-item class="item-image" >
+					<img src="img/xiangqing/muse.png" alt="" />
+				</ion-item>
+				<ion-item class="item-image">
+					<img src="img/xiangqing/qian.png" alt="" />
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	
+</ion-view>

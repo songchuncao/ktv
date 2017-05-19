@@ -1,0 +1,156 @@
+
+		  <!--头部-->
+		<div class="bar bar-header">
+		    <button class="button button-clear button-light" ng-click="goodesList()">
+		    	<i class="icon ion-ios-arrow-left"></i>
+		    </button>
+		    <h1 class="title">商品列表</h1>
+		</div>
+		<!--副标题-->
+		<div class="tabs-striped tabs-top">
+	        <div class="tabs">
+	            <a class=" " ui-sref="^.goodeslist2"> 分类 <i class="icon ion-arrow-down-b"></i></a>
+	            <a class="" href="#">价格排序 <i class="icon ion-arrow-up-b"></i></a>
+	            <a class="" href="#" ui-sref="^.goodeslist">销量优先  </a>
+	        </div>
+	    </div>
+	    <div class="Xposition" style="z-index:999;">
+            <div clas="falg2">
+                <div class="item ">
+                  	 价格从高到底
+                </div>
+                <div class="item ">
+                	价格从低到高
+                </div>
+            </div>
+            <div></div>
+    	</div>
+		<!--内容-->
+		<ion-content class="has-header has-subheader">
+			<div class="list" >
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/pic12.png"/>
+					<p>撼森点歌机家庭用KTV高清触摸屏卡<br />拉ok点唱机一体机套装可配音响</p>
+					<span>￥<b>555</b></span>
+					<strong>￥158</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/pic13.png"/>
+					<p>InAndon/音王KB505 1000G高清<br />点歌机 家庭ktv 卡拉ok点唱机一体机</p>
+					<span>￥<b>1288</b></span>
+					<strong>￥2228</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-10.fw.png"/>
+					<p>进口啤酒 德国啤酒 德国唛帝小麦啤<br />酒 白啤酒 500ML*24</p>
+					<span>￥<b>96</b></span>
+					<strong>￥388</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-11.fw.png"/>
+					<p>德国啤酒星晖黑啤酒德国进口黑啤<br />酒5l桶装 进口啤酒大桶 黑啤酒</p>
+					<span>￥<b>79</b></span>
+					<strong>￥258</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-12.fw.png"/>
+					<p>索爱 SA-A12笔记本台式电脑电视<br />K歌音响 多媒体2.1有源低音炮音响</p>
+					<span>￥<b>199</b></span>
+					<strong>￥599</strong>
+					<i class="item-note">已售123</i>
+				</div>
+			</div>
+		</ion-content>
+	<div class="mask"></div>
+	<style type="text/css">
+	.mask{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background:rgba(0,0,0,0.6);
+	}
+		.bar-header{
+			background: url(img/qiantai/Top.fw.png) no-repeat;
+			background-size: 100%;
+			color: #fff;
+			z-index: 999;
+		}
+		.button.button-light.button-clear{
+			color: #fff;
+		}
+		h1{
+			color: #fff;
+		}
+		.bar .title{
+			font-size: 20px;
+		}
+		.tabs{
+			z-index: 999;
+		}
+		 .tabs a{
+            color: #000000;
+            text-align: center;
+            text-decoration: none;
+            width:33%;
+           
+        }
+        .Xposition{
+            width: 100%;
+            position: absolute;
+            top: 93px;
+        }
+        .Xposition>div{
+            width:100%;
+            position: absolute;
+            top:0;
+            display: block;
+        }
+        .Xposition .item:hover{
+        	border-left:2px solid #663399;
+        	background-color: #eee;
+        }
+		.row{
+			background-color: #fff;
+			color: #999;
+			z-index: 999;
+		}
+		.row .col{
+			text-align: center;
+			border-right: 1px solid #ccc;
+			background-color: #fff;
+			z-index: 999;
+		}
+		.row .col:nth-child(3){
+			border-right: none;
+		}
+		.item h2{
+			line-height: 40px;
+			font-weight: bold;
+		}
+		 span{
+		 	font-weight: normal;
+		 }
+		 
+		 .item-thumbnail-left p{
+			margin-bottom: 10px;
+			line-height: 25px;
+			color: #000;
+		}
+		.item-thumbnail-left span{
+			color: #663399;
+			font-size: 14px;
+		}
+		.item-thumbnail-left span b{
+			font-size: 16px;
+		}
+		.item-thumbnail-left strong{
+			text-decoration: line-through;
+			color: #aaa;
+			font-weight: normal;
+		}
+	</style>
+	

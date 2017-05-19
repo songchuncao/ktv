@@ -1,0 +1,119 @@
+
+		  <!--头部-->
+		<div class="bar bar-header">
+		    <button class="button button-clear button-light" ng-click="GoBack()">
+		    	<i class="icon ion-ios-arrow-left"></i>
+		    </button>
+		    <h1 class="title">商品列表</h1>
+		</div>
+		<!--内容-->
+		<ion-content class="has-header">
+			<div class="row">
+				<div class="col" ui-sref="^.goodeslist2">
+					分类
+					<i class="icon ion-arrow-down-b"></i>
+				</div>
+				<div class="col" ui-sref="^.goodeslist3">
+					价格排序
+					<i class="icon ion-arrow-down-b"></i>
+				</div>
+				<div class="col">销量优先</div>
+			</div>
+			<div class="list" >
+				<div class="item item-thumbnail-left" ui-sref="^.goodesdetails1">
+					<img src="img/qiantai/pic12.png"/>
+					<p>撼森点歌机家庭用KTV高清触摸屏卡<br />拉ok点唱机一体机套装可配音响</p>
+					<span>￥<b>555</b></span>
+					<strong>￥158</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/pic13.png"/>
+					<p>InAndon/音王KB505 1000G高清<br />点歌机 家庭ktv 卡拉ok点唱机一体机</p>
+					<span>￥<b>1288</b></span>
+					<strong>￥2228</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-10.fw.png"/>
+					<p>进口啤酒 德国啤酒 德国唛帝小麦啤<br />酒 白啤酒 500ML*24</p>
+					<span>￥<b>96</b></span>
+					<strong>￥388</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-11.fw.png"/>
+					<p>德国啤酒星晖黑啤酒德国进口黑啤<br />酒5l桶装 进口啤酒大桶 黑啤酒</p>
+					<span>￥<b>79</b></span>
+					<strong>￥258</strong>
+					<i class="item-note">已售123</i>
+				</div>
+				<div class="item item-thumbnail-left">
+					<img src="img/qiantai/x-12.fw.png"/>
+					<p>索爱 SA-A12笔记本台式电脑电视<br />K歌音响 多媒体2.1有源低音炮音响</p>
+					<span>￥<b>199</b></span>
+					<strong>￥599</strong>
+					<i class="item-note">已售123</i>
+				</div>
+			</div>
+		</ion-content>
+
+	<style type="text/css">
+		.bar-header{
+			background: url(img/qiantai/Top.fw.png) no-repeat;
+			background-size: 100%;
+			color: #fff;
+		}
+		.button.button-light.button-clear{
+			color: #fff;
+		}
+		h1{
+			color: #fff;
+		}
+		.bar .title{
+			font-size: 20px;
+		}
+		.has-header .row{
+			background-color: #fff;
+			color: #999;
+		}
+		.has-header .row .col{
+			text-align: center;
+			border-right: 1px solid #ccc;
+			background-color: #fff;
+		}
+		.has-header .row .col:nth-child(3){
+			border-right: none;
+		}
+		.item h2{
+			line-height: 40px;
+			font-weight: bold;
+		}
+		 span{
+		 	font-weight: normal;
+		 }
+		 .item-thumbnail-left p{
+			margin-bottom: 10px;
+			line-height: 25px;
+			color: #000;
+		}
+		.item-thumbnail-left span{
+			color: #663399;
+			font-size: 14px;
+		}
+		.item-thumbnail-left span b{
+			font-size: 16px;
+		}
+		.item-thumbnail-left strong{
+			text-decoration: line-through;
+			color: #aaa;
+			font-weight: normal;
+		}
+	</style>
+	<script type="text/javascript">
+	 	var app=angular.module("myApp",["ionic"]);
+    	app.controller("myCtrl",function ($scope) {
+        
+    	})
+	</script>
+

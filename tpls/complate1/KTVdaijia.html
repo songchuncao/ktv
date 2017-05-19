@@ -1,0 +1,126 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2;
+			}
+			
+			.top{
+				background: #f6f6f6;
+				border: none;
+				
+			}
+			.top .button.button-light.button-clear {
+			    color: #ff552e;
+			}
+			.top h2{
+				color: #333333;
+			}
+			.bar .title.title-left {
+			    text-align: center;
+			}
+			.content img{
+				width: 100%;
+				float: left;
+			}
+			.content .item2 {
+				background: #f6f6f6;
+			}
+			.content .item2 .button-clear.button-clear{
+				background: white;
+				color: #bdbdbd;
+				border-radius: 47px;
+				max-height: 52px;
+			}
+			
+			.content .item2  .button{
+				min-width: 40px;
+				min-height: 40px;
+				/*float: left;*/
+			}
+			.content .item2 h2,p{
+				text-align: center;
+			}
+			.content .item2 p{
+				color: #999999;
+			}
+			.content .item2 h2{
+				font-size: 20px;
+			}
+			.content .item2 span{
+				color:#ff6600 ;
+			}
+			.content .item3 img{
+				width: 25px;
+			}
+			.content .item3 img:nth-of-type(2){
+				float: right;
+			}
+			.content .item3 span{
+				margin-left: 20px;
+				line-height: 30px;
+			}
+			.content .item4 p{
+				text-align: left;
+				color: #178cd1;
+				font-size: 18px;
+			}
+			.content .item4 .button {
+				background: #cccccc;
+				color: white;
+			}
+			.content .item4 img{
+				width: 30px;
+			}
+			.content .item4 span{
+				color: #aaaaaa;
+				font-size: 14px;
+				margin-top: 5px;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">代驾</h2>
+			<button class="button button-clear button-light">
+				关闭
+			</button>
+		</ion-header-bar>
+		<ion-content class="content">
+			<ion-list>
+				<ion-item class="item-image">
+					<img src="img/xiangqing/xin.png"/>
+					
+				</ion-item>
+				<ion-item class="item2">
+					<button class="button button-clear">
+						<i class="icon ion-person"></i>
+					</button>
+					<h2>附近有<span>5</span>位司机随时接驾</h2>
+					<p>最近司机据您<span>845</span>米</p>
+				</ion-item>
+				<ion-item class="item3">
+					<img src="img/xiangqing/wei.png"/>
+					<span>农业路 国贸中心</span>
+					<img src="img/xiangqing/ca.png"/>
+				</ion-item>
+				<ion-item class="item3">
+					<img src="img/xiangqing/phon.png"/>
+					<span style="color: #CCCCCC;">请输入手机号</span>
+					
+				</ion-item>
+				<ion-item class="item4">
+					<p>39起步，查看服务价格</p>
+					<button class="button  button-block hu">呼叫司机</button>
+					<img src="img/xiangqing/dui.png"/>
+					<span>已同意并阅读同意《使用规则与代驾服务协议》</span>
+				</ion-item>
+			</ion-list>
+			
+		</ion-content>
+</ion-view>

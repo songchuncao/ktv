@@ -1,0 +1,73 @@
+<ion-view hide-tabs="true">
+    <!--商品订单待收货-->
+    <!--头部开始-->
+    <ion-header-bar class="goodshuo-top" align-title="center">
+        <button ng-click="goodshuotback()" class="button button-icon ion-ios-arrow-left"></button>
+        <h1 class="title">商品订单</h1>
+    </ion-header-bar>
+    <!--头部结束-->
+    <ion-content class="goodshuo-box">
+        <ion-list>
+            <ion-item>
+                <div class="row">
+                    <div class="col-25" ui-sref="^.goodsall">
+                        全部
+                    </div>
+                    <div class="col-25" ui-sref="^.goodswait">
+                        待付款
+                    </div>
+                    <div class="col-25 active">
+                        待收货
+                    </div>
+                    <div class="col-25">
+                        待评价
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item class="goodshuo-first">
+                <img src="img/pimg/d4.png" alt="">
+                <span>2015-12-22&nbsp;22:24</span>
+                <p class="item-note">待收货</p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left goodshuo-two">
+                <img src="img/pimg/goods1.png" alt="">
+                <h2>撼森点歌机家庭用KTV套装</h2>
+                <p>数量：x1</p>
+                <span><i>￥</i>299</span>
+            </ion-item>
+            <ion-item class="goodshuo-three">
+                <p class="item-note">共计：<span><i>￥</i>299.00</span></p>
+            </ion-item>
+            <ion-item class="goodshuo-last">
+            <span class="item-note">
+                <button class="goodshuo-btn1">查看物流</button>
+                <button class="goodshuo-btn2">确认收货</button>
+            </span>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item class="goodshuo-first">
+                <img src="img/pimg/d4.png" alt="">
+                <span>2015-12-22&nbsp;22:24</span>
+                <p class="item-note">待收货</p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left goodshuo-two">
+                <img src="img/pimg/goods2.png" alt="">
+                <h2>撼森点歌机家庭用KTV套装</h2>
+                <p>数量：x1</p>
+                <span><i>￥</i>299</span>
+            </ion-item>
+            <ion-item class="goodshuo-three">
+                <p class="item-note">共计：<span><i>￥</i>299.00</span></p>
+            </ion-item>
+            <ion-item class="goodshuo-last">
+            <span class="item-note">
+                <button class="goodshuo-btn1">查看物流</button>
+                <button class="goodshuo-btn2">确认收货</button>
+            </span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

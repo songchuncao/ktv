@@ -1,0 +1,66 @@
+﻿
+<!--团购订单全部订单-->
+<!--头部开始-->
+<ion-view hide-tabs="true">
+    <ion-header-bar ng-click="tuanallback()" class="tuanAll-top" align-title="center">
+        <button class="button button-icon ion-ios-arrow-left"></button>
+        <h1 class="title">团购订单</h1>
+    </ion-header-bar>
+    <!--头部结束-->
+    <ion-content class="tuanAll-box">
+        <ion-list class="tuanAll-tab">
+            <ion-item>
+                <div class="row">
+                    <div class="col-25 active">
+                        全部
+                    </div>
+                    <div class="col-25" ui-sref="^.tuanwait">
+                        待付款
+                    </div>
+                    <div class="col-25" ui-sref="^.tuanemploy">
+                        待使用
+                    </div>
+                    <div class="col-25" ui-sref="^.tuanevaluate">
+                        待评价
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item class="tuanAll-first">
+                <img src="img/pimg/d3.png" alt="">
+                <h2>麦克风量贩式KTV6小时欢唱</h2>
+                <p>数量:1&nbsp;总价:￥68</p>
+            </ion-item>
+            <ion-item class="tuanAll-last">
+                <img src="img/pimg/d4.png" alt="">
+                <span>2016-02-28</span>
+                <button class="item-note">查看劵码</button>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item class="tuanAll-first">
+                <img src="img/pimg/d1.png" alt="">
+                <h2>糖果KTV6小时夜场欢唱</h2>
+                <p>数量:1&nbsp;总价:￥68</p>
+            </ion-item>
+            <ion-item class="tuanAll-last">
+                <img src="img/pimg/d4.png" alt="">
+                <span>2016-02-28</span>
+                <button class="item-note">立即付款</button>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item class="tuanAll-first">
+                <img src="img/pimg/d2.png" alt="">
+                <h2>糖果KTV6小时夜场欢唱</h2>
+                <p>数量:1&nbsp;总价:￥68</p>
+            </ion-item>
+            <ion-item class="tuanAll-last">
+                <img src="img/pimg/d4.png" alt="">
+                <span>2016-02-28</span>
+                <button class="item-note">立即评价</button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

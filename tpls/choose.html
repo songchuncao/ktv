@@ -1,0 +1,70 @@
+﻿<ion-view hide-tabs="true">
+    <style>
+        .cho-bg{background-color: #f2f2f2;}
+        .cho-header{background-image: url("img/bg.fw.png");background-size: 100%;}
+        .cho-button{color:#fff;}
+        h1{color:#fff;}
+        a{text-decoration: none}
+        .cho-ion{width:18%;height: 200px;background: #fff;margin-top: 10px;
+            overflow: hidden;float: left;}
+        .cho-ion>i{height:55px;width: 55px;transform: scale(0.6,0.6);
+            display: block;margin:10px 0 0 1px;}
+        .cho-ion>i:first-child{background-image: url("img/15.png");}
+        .cho-ion>i:nth-child(2){background-image: url("img/17.png");}
+        .cho-ion>i:last-child{background-image: url("img/16.png");}
+        .cho-bank{width:82%;height: 200px;background: #fff;
+            margin-top: 10px;float: right;}
+        .cho-bank li{height:67px;border-bottom: 1px solid #ccc;}
+        .cho-bank .cho-c{float: left;font-size: 19px;margin-top: 12px;}
+        .cho-bank .cho-w{color:#d3d3d3;float: left; font-weight: normal;
+            font-size: 17px;margin: 39px 0 0 -113px;}
+        .cho-bank li>button{float: right;margin-top: 14px;
+            transform: scale(0.9,0.9);}
+        .cho-bank li.cho-lt{border-bottom:none;}
+        .cho-slide{width: 45px;height: 47px;float: right;margin-top: 3px;
+            border-width: 0px;padding-top: 16px;}
+    </style>
+
+
+
+    <ion-header-bar class="cho-header">
+        <button class="button button-icon cho-button" ng-click="chooseback()">
+            <i class="icon ion-ios-arrow-left"></i>
+        </button>
+        <h1 class="title">选择银行卡</h1>
+        <button class="button button-clear button-light" ui-sref="^.addcard">添加</button>
+    </ion-header-bar>
+    <ion-content class="cho-bg">
+        <div class="cho-ion">
+            <i></i><i></i><i></i>
+        </div>
+        <ul class="cho-bank">
+            <li>
+                <span class="cho-c">中国工商银行</span>
+                <span class="cho-w">尾号7265储蓄卡</span>
+                <ion-radio ng-model="choice" ng-value="'A'" class="cho-slide" selecked>
+                </ion-radio>
+            </li>
+            <li>
+                <span class="cho-c">中国光大银行</span>
+                <span class="cho-w">尾号2177储蓄卡</span>
+                <ion-radio ng-model="choice" ng-value="'B'" class="cho-slide">
+                </ion-radio>
+            </li>
+            <li class="cho-lt">
+                <span class="cho-c">中国建设银行</span>
+                <span class="cho-w">尾号8660储蓄卡</span>
+                <ion-radio ng-model="choice" ng-value="'C'" class="cho-slide">
+                </ion-radio>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
+<!--<script>-->
+    <!--$(function () {-->
+        <!--$(".cho-i").click(function () {-->
+            <!--$(".cho-i").addClass("ion-ios-circle-filled");-->
+            <!--$(".cho-i").removeClass("ion-ios-circle-outline");-->
+        <!--})-->
+    <!--})-->
+<!--</script>-->

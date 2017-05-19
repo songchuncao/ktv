@@ -1,0 +1,37 @@
+.xiaoxi-top{
+    background:url("../../img/pimg/Top.fw.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.xiaoxi-top h1{
+    color:#fff;
+}
+.xiaoxi-top>button{
+    color:#fff;
+}
+.xiaoxi-box{
+    background-color: #f2f2f2;
+}
+.xiaoxi-box .ion-item img{
+    width:20px;
+}
+.xiaoxi-box .item-thumbnail-left{
+    min-height:0px;
+    padding-left: 75px;
+}
+.xiaoxi-box .item-thumbnail-left>img:first-child {
+    max-width:50px;
+    max-height:50px;
+}
+.xiaoxi-box .item h2{
+    margin: 7px 0 4px 0;
+}
+.xiaoxi-box .item p{
+    color:#666;
+}
+.xiaoxi-box .item span{
+    color: #999;
+    margin-top:6px;
+    display: block;
+    float: right;
+}

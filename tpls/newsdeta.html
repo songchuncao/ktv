@@ -1,0 +1,66 @@
+<!--&lt;!&ndash;样式&ndash;&gt;-->
+<!--<style>-->
+    <!--.newde-header{-->
+        <!--background: url("img/bg.fw.png")no-repeat;-->
+        <!--background-size: 100%;-->
+        <!--color: #fff;-->
+    <!--}-->
+    <!--.newde-imgs{-->
+        <!--width: 27px;-->
+    <!--}-->
+    <!--.newdeta-h-font{-->
+        <!--padding:10px;-->
+    <!--}-->
+    <!--.newdeta-h-font>h5{-->
+        <!--font-size: 20px;-->
+    <!--}-->
+    <!--.newdeta-h-font>p{-->
+        <!--font-size: 14px;-->
+        <!--color: #BEBEBE;-->
+    <!--}-->
+<!--</style>-->
+
+<ion-view hide-tabs="true">
+        <div class="bar bar-header newde-header">
+            <button ng-click="newsdeta()" class="button button-clear button-light"><i class="icon ion-ios-arrow-back">返回</i></button>
+            <p class="title">详情</p>
+            <buttin ng-click="detasshow()" class="button button-clear"><i class="icon"><img class="newde-imgs" src="img/fenxiang.png" alt=""></i></buttin>
+        </div>
+        <ion-content class=" has-header">
+            <div class="newdeta-h-font">
+                <h5>怎样在KTV里运用K歌技巧</h5>
+                <p>2017-06-16</p>
+                <div class="list card">
+                    <div class="item item-avatar">
+                        <img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3449071175,3989458890&fm=23&gp=0.jpg">
+                        <h2>Marty分享</h2>
+                        <p>November 05, 1955</p>
+                    </div>
+                    <div class="item item-body">
+                        <p style="text-indent: 28px">
+                            要想唱一首歌曲，首先唱歌的人一定要做到声情并茂。一是“声”：用哪些动作去唱歌，什么动作在唱歌时运用会发挥出更好的效果。二是“情”：唱歌时所要表达的一种感情，怎样带动“观众”（被认作是不是投入有没有一种音乐独特的气质。）
+                        </p>
+                        <img class="full-image" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1017904219,2460650030&fm=23&gp=0.jpg">
+                        <p style="text-indent: 28px">
+                            本期小编推荐南区地铁口潜力盘，虽然新进入的加上目前现有的，看起来南区目前楼盘众多，但占据地铁口优势的就只有那么几个，卖一套少一套，赶紧来看看吧。正商城是位于二环旁的综合体盘，地理位置优越；临近地铁5号线、BRT快速公交等，交通十分便利；小区周边配套相对成熟，其中教育资源丰富，内部规划有5所幼儿园，三所小学，周边有铁路晨曦幼儿园，心连心幼儿园，春晖小学，邱砦小学，长江路小学，中学有82中、62中。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+        <!--遮罩层-->
+    <div class="newsdeta-zzs" ng-show="detashow">
+    </div>
+        <div class="news-zz" ng-show="detashow">
+            <div>
+                <ul class="row">
+                    <li class="col"><img src="img/qq.png" alt=""></li>
+                    <li class="col"><img src="img/weibo.png" alt=""></li>
+                    <li class="col"><img src="img/weixin.png" alt=""></li>
+                    <li class="col"><img src="img/pengyouquan.png" alt=""></li>
+                </ul>
+                <p><button ng-click="detasshow()" class="button button-full">取消</button></p>
+            </div>
+        </div>
+    </div>
+</ion-view>

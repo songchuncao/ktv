@@ -1,0 +1,242 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2;
+				
+			}
+			.content span{
+				float: right;
+				font-size: 12px;
+			}
+			.content img{
+				width: 100%;
+				height: 100%;
+				
+			}
+			.content .button{
+				min-height: 44px;
+				min-width: 44px;
+				border-radius: 44px;
+				background: #0e0310;
+				color: white;
+			}
+			.content .button.l{
+				float: left;
+				position: absolute;
+				top: 16px;
+				left: 16px;
+				z-index: 999;
+			}
+			.content .button.r{
+				float: right;
+				position: absolute;
+				top: 16px;
+				right: 16px;
+				z-index: 999;
+			}
+			.content .row{
+				padding: 0;
+			}
+			.content .col{
+				padding: 0;
+			}
+			.content .col-10 span{
+				width: 20px;
+			}
+			.content .item1 p{
+				color: #663399;
+				font-size: 20px;
+				margin-top: 10px;
+			}
+			.content .list2 .list{
+				margin-top: 20px;
+			}
+			.content .nav{
+				height: 40px;
+				margin-top: 20px;
+				border-top: 1px solid #ccc;
+				background:white;
+				
+			}
+			.content .navN{
+				margin-bottom: 20px;
+			}
+			.content .nav ul li{
+				list-style: none;
+				float: left;
+				width: 33.3%;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				color: #333333;
+				border-bottom: 1px solid white;
+			}
+			
+			.content .nav ul li.active {
+				color:#663399;
+				border-bottom: 1px solid #663399;
+			}
+			
+			.content .navN{
+				padding: 16px;
+				background: white;
+			}
+			.content .navN p{
+				color: #666;
+			}
+			
+			.content .navN .ping img:nth-of-type(1){
+				float: left;
+				width: 80px;
+				margin-right: 10px;
+			}
+			.content .navN .ping img:nth-of-type(2){
+				width: 100px;
+			}
+			.content .navN .ping>p:nth-of-type(1){
+				margin-top: 10px;
+			}
+			.content .navN .navN-chan{
+				display: none;
+			}
+			.content .navN .chen1{
+				display: block;
+			}
+			.gou{
+				background: white;
+				width: 100%;
+				z-index: 999;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+			}
+			.gou .item{
+				/*padding: 10px;*/
+				border: none;
+			}
+			.gou .gou-t img:nth-of-type(1){
+				width: 100px;
+				float: left;
+			}
+			.gou .gou-t .gou-r{
+				width: 200px;
+				float: right;
+			}
+			
+			.gou span{
+				width: 20px;
+				position: absolute;
+				right: 20px;
+				top: 10px;
+			}
+			
+			.gou-r p{
+				margin-top: 15px;
+				font-size:20px ;
+				color:  #663399;
+			}
+			.gou .item2 button{
+				border-radius: 0;
+				background: #f2f2f2 !important;
+				color:#663399 ;
+			}
+			.gou .item2 p{
+				margin-bottom: 10px;
+			}
+			.gou .item2 input{
+				width: 60px;
+				height: 44px;
+				border: none;
+				background: #f2f2f2 !important;
+				text-align: center;
+			}
+			.gou .lastB{
+				border-radius: 0;
+				background: #663399;
+				margin: 0;
+				color: white;
+			}
+		</style>
+	
+		<!--content-->
+		<ion-content class="content">
+			<button class="button l" ng-click="yanFan()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<button class="button r">
+				<i class="icon ion-android-share-alt"></i>
+			</button>
+			<ion-list>
+				<img src="img/xiangqing/lin.png"/>
+				<ion-item class="item1">
+					<div class="row">
+						<div class="col col-90">
+							<h2>蔡依林2016PLAY世界巡回演唱会-郑州站</h2>
+						</div>
+						<div class="col col-10">
+							<span><img src="img/xiangqing/star.png"/></span>
+						</div>
+					</div>
+					<p>￥290</p>
+					
+				</ion-item>
+			</ion-list>
+					<div class="nav">
+						<ul>
+							<li class="active">产品参数</li>
+							<li>图文详情</li>
+							<li>用户评价</li>
+						</ul>
+					</div>
+					<div class="navN">
+						<div class="navN-chan chen1" >
+							<p>演出时间：2016.06.25</p>
+							<p>演出场馆：河南省体育中心</p>
+							<p>产出时长：以现场为准</p>
+							<p>入场时间：塑料</p>
+							<p>限  购：选座购买每单限6张，立即购买每单限20张。</p>
+							<p>儿童入场提示：1.2米以下儿童谢绝入场(儿童项目除<br/>外)，1.2米以下儿童需持票入场</p>
+						</div>
+						<div class="navN-chan" >
+							<img src="img/xiangqing/yi.png"/>
+							<p>极致惊艳与性感！【PLAY】世界巡回演唱会，蔡依林首登郑州</p>
+							<p>媒体说“她不是天才，她是地才”</p>
+							<p>她说“我一直相信努力就一定会成功”</p>
+						</div>
+						<div class="navN-chan ping">
+							<img src="img/xiangqing/person.png"/>
+							<h2>落月邀情、</h2>
+							<img src="img/xiangqing/xing.png"/>
+							<p>抱着试试看的心态拍下宝贝，商家给发的邮政，一直以为</p>
+							<p>有着让那个很慢，未想到速度喜人。收到宝贝，以及拆开很好</p>
+							<p>2015.07.29 11:26:57 颜色分类：基础礼盒</p>
+						</div>
+					</div>
+					
+		</ion-content>
+		<div class="gou">
+						<div class="list">
+							<div class="item item-thumbnail-left">
+								<img src="img/xiangqing/cai.png"/>
+								<div class="gou-r">
+									<h2>蔡依林2016PLAY世界巡回演唱<br>会-郑州站</h2>
+									<p>￥790</p>
+									<span><img src="img/xiangqing/ca.png"/></span>
+								</div>
+							</div>
+							<div class="item item2">
+								<p>购买数量</p>
+								<button class="button icon ion-minus "></button>
+								<input type="" name="" id="" value="1" />
+								<button class="button icon ion-plus"></button>
+								
+							</div>
+							<button class="button button-full lastB" ui-sref="^.chenggou">加入购入车</button>
+						</div>
+					</div>
+	
+
+</ion-view>

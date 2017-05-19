@@ -1,0 +1,216 @@
+
+<ion-view hide-tabs="true">
+	<ion-content class="con">
+		<ion-slide-box  does-continue="true" auto-play="true" silde-interval="1000">
+			<ion-slide class="gd">
+				<img src="img/qiantai/未命名-15fw.png" />
+			</ion-slide>
+			<ion-slide class="gd">
+				<img src="img/qiantai/未命名-15fw.png" />
+			</ion-slide>
+			<ion-slide class="gd">
+				<img src="img/qiantai/未命名-15fw.png" />
+			</ion-slide>
+		</ion-slide-box>
+		<div class="back" ng-click="goodesBack()">
+			<i class="icon ion-ios-arrow-left"></i>
+		</div>
+		<div class="share"  ui-sref="^.share">
+			<i class="icon ion-android-share-alt"></i>
+		</div>
+		<div class="name">
+			<p>撼森点歌机家庭用KTV高清触摸屏卡拉OK点唱机一体机套装可配音响</p>
+			<i class="icon ion-android-star-outline" ui-sref="^.collect"></i>
+			<div class="clear"></div>
+			<div>
+				<b>￥158</b>
+				<span>￥741</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" ui-sref="^.goodesdetails1">产品参数</div>
+			<div class="col ys">图文详情</div>
+			<div class="col" ui-sref="^.goodesdetails3">用户评价</div>
+		</div>
+	    <div class="qhBox" style="z-index: 9999;">
+           
+            <div class="box"> 
+            	<img src="img/qiantai/x-07.fw.png" alt="" />
+            </div>
+            
+    	</div>
+	</ion-content>
+	<ion-footer-bar class="bar-light">
+		<div class="col-25" ui-sref="^.addcar">
+			<span>
+				<img src="img/qiantai/x-08.png" width="30px"/>
+			</span>
+			<p>购物车</p>
+		</div>
+		<div class="col-25">
+			<span>
+				<img src="img/qiantai/x-09.png" width="30px"/>
+			</span>
+			<p>客服</p>
+		</div>
+		<div class="col-50" ui-sref="^.buycar">加入购物车</div>
+	</ion-footer-bar>
+
+<style type="text/css">
+	.con{
+		background-color: #F2F2F2;
+		margin-bottom:17px;
+	}
+	.bar{
+		padding: 0;
+	}
+	.item{
+		border: none;
+	}
+	.item-thumbnail-left{
+		float: left;
+		padding-left: 75px;
+	}
+	.item-thumbnail-left img{
+		width: 80px;
+	}
+	.item h2{
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.item p img{
+		width:100px;
+	}
+	.clear{
+		clear: both;
+	}
+	.slider-pager .slider-pager-page{
+		color: #9326ff;
+		width: 20px;
+	}
+	.gd img{
+		width: 100%;
+		float: left;
+	}
+	.back{
+		width: 40px;
+		height: 40px;
+		float: left;
+		background:rgba(0,0,0,.3);
+		position: fixed;
+		border-radius: 50%;
+		top: 10px;
+		text-align: center;
+		line-height: 40px;
+		left: 10px;
+		font-size: 30px;
+		color: #fff;
+	}
+	.share{
+		width: 40px;
+		height: 40px;
+		float: right;
+		background:rgba(0,0,0,.3);
+		position: fixed;
+		border-radius: 50%;
+		top: 10px;
+		text-align: center;
+		line-height: 40px;
+		right: 10px;
+		font-size: 25px;
+		color: #fff;
+	}
+	.name{
+		padding: 10px 20px;
+		background-color: #fff;
+		border-bottom: 2px solid #ddd;
+		margin-bottom: 10px;
+	}
+	.name p{
+		width: 80%;
+		float: left;
+		line-height: 25px;
+		font-size: 16px;
+	}
+	.name i{
+		display: block;
+		float: right;
+		width: 50px;
+		height: 30px;
+		text-align: center;
+		color: #663399;
+		font-size: 30px;
+		border-left: 1px solid #ccc;
+	}
+	.name b{
+		color: #663399;
+		font-size: 18px;
+	}
+	.name span{
+		color: #aaa;
+		text-decoration: line-through;
+		margin-left: 10px;
+	}
+	.row{
+		background-color: #fff;
+		padding: 0;
+	}
+	.row .col{
+		text-align: center;
+		border-right: 1px solid #ddd;
+		border-bottom: 2px solid #ddd;
+		padding: 10px 5px;
+		font-weight: bold;
+	}
+	.row .col:hover{
+		color:#66339;
+		border-bottom: 1px solid #663399;
+	}
+	.row .col:nth-child(3){
+		border-right: none;
+	}
+	.qhBox{
+        width: 100%;
+        position: absolute;
+        top:100%;
+        }
+   .qhBox>div{
+        width:100%;
+        position: absolute;
+        top:0;
+    }
+    .box{
+    	background-color: #fff;
+    }
+    .row .ys{
+    	border-bottom: 2px solid #663399;
+    	color: #663399;
+    }
+    .box>img{
+    	width: 100%;
+    }
+    .box>p{
+    	padding: 5px 10px;
+    	border-bottom: 1px solid #ccc;
+    	color: #aaa;
+    	font-size: 13px;
+    }
+    .bar-footer{
+    	height: 60px;
+    	background-position: bottom;
+    }
+    
+    .bar-light .col-25{
+    	text-align: center;
+    	color: #f15a5a;
+    }
+     .bar-light .col-50{
+    	text-align: center;
+    	color: #fff;
+    	background-color: #663399;
+    	line-height: 60px;
+    }
+   
+
+</style>
+</ion-view>

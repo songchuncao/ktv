@@ -1,0 +1,104 @@
+.goodsAll-top{
+    background:url("../../img/pimg/Top.fw.png") no-repeat;
+    background-size: 100%;
+}
+.goodsAll-top h1{
+    color:#fff;
+}
+.goodsAll-top>button{
+    color:#fff;
+}
+.goodsAll-box{
+    background-color: #f2f2f2;
+}
+.goodsAll-box .list{
+    margin-bottom:10px;
+}
+.goodsAll-box .item{
+    padding:0px;
+}
+.goodsAll-box .row{
+    color: #999;
+    padding: 0;
+}
+.goodsAll-box .col-25{
+    padding: 10px;
+    text-align: center;
+}
+.goodsAll-box .col-25.active{
+    color: #663399;
+    border-bottom: 1px solid #663399;
+}
+.goodsAll-box .goodsAll-first{
+    padding:10px 10px 10px 15px;
+}
+.goodsAll-box .goodsAll-first img{
+    width:6%;
+    display: block;
+    float: left;
+    clear: both;
+}
+.goodsAll-box .goodsAll-first p{
+    color: #f00;
+    font-size:15px;
+}
+.goodsAll-box .goodsAll-first span{
+    color: #999;
+    padding-left:5px;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+.goodsAll-box .goodsAll-two{
+    padding-top: 8px;
+    padding-left: 106px;
+}
+.goodsAll-box .goodsAll-two h2{
+    padding-top:5px;
+}
+.goodsAll-box .goodsAll-two span{
+    display: block;
+    float: left;
+    font-size:30px;
+    padding-top:20px;
+    color: #663399;
+}
+.goodsAll-box .goodsAll-two p{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+.goodsAll-box .goodsAll-two span>i{
+    font-size:18px;
+    padding-top:5px;
+}
+.goodsAll-box .goodsAll-three p{
+    padding: 5px;
+    font-size: 16px;
+    color: #000;
+}
+.goodsAll-box .goodsAll-three span{
+    font-size:20px;
+    color: #663399;
+}
+.goodsAll-box .goodsAll-three span>i{
+    font-size:16px;
+}
+.goodsAll-box .goodsAll-last span{
+    padding: 5px;
+}
+.goodsAll-box .goodsAll-last .goodsAll-btn1{
+    color: #999;
+    border:1px solid #999;
+    background-color:#fff;
+    border-radius: 5px;
+    padding:5px 8px;
+}
+.goodsAll-box .goodsAll-last .goodsAll-btn2{
+    color: #fff;
+    border:1px solid #639;
+    background-color:#639;
+    border-radius: 5px;
+    padding:5px 8px;
+    margin: 0 5px;
+}

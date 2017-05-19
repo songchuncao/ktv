@@ -1,0 +1,18 @@
+<ion-view hide-tabs="true">
+    <div class="bar bar-header item-input-inset main-bgs">
+        <!--输入框-->
+        <label class="item-input-wrapper inputs-no1">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input ng-model="searchs" placeholder="请输入商家名" ng-Keyup="downs()" type="text">
+        </label>
+        <a class="button button-clear button-light" ng-click="cancel()">取消</a>
+    </div>
+    <ion-content class="has-header">
+        <ion-list ng-repeat="s in sugs">
+            <ion-item class="item-avatar">
+                <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1377390016,3492815159&fm=23&gp=0.jpg">
+                <h2 ng-bind="s"></h2>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

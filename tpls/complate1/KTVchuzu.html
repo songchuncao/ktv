@@ -1,0 +1,75 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			
+			.top{
+				background: #fafafa;
+			}
+			.top .button img{
+				width: 32px;
+			}
+			
+			.top h2 img{
+				vertical-align: middle;
+				width: 32px;
+			}
+			.bar .title.title-left {
+			    text-align: center;
+			}
+			.nav{
+				background:#fafafa ;
+				color: #878787;
+			}
+			.nav .col-16{
+				text-align: center;
+				padding: 0;
+				line-height: 24px;
+			}
+			.nav .taxi{
+				background:white;
+				color: #ff8903;
+				border-radius: 10px;
+			}
+			.content img{
+				width: 100%;
+				/*float: left;*/
+			}
+			
+			.content .item{
+				padding: 0;
+				border: none;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear"  ng-click="fanhui()">
+				<img src="img/xiangqing/ren.png"/>
+			</button>
+			<h2 class="title">
+				<img src="img/xiangqing/yubiao.png"/>
+			</h2>
+			<button class="button button-clear">
+				<img src="img/xiangqing/ling.png"/>
+			</button>
+		</ion-header-bar>
+		<div class="bar nav-bar-has-subheader has-header nav">
+			<div class="row">
+				<div class="col col-16">顺风车</div>
+				<div class="col col-16">快车</div>
+				<div class="col col-16 taxi">出租车</div>
+				<div class="col col-16">专车</div>
+				<div class="col col-16" ui-sref="^.KTVdaijia">代驾</div>
+				<div class="col col-16">试驾</div>
+			</div>
+		</div>
+		<ion-content class="content has-subheader">
+			<ion-list>
+				<ion-item classs="item-image">
+					<img src="img/xiangqing/ditu.png"/>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+</ion-view>

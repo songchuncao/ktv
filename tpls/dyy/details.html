@@ -1,0 +1,262 @@
+
+ <!--头部-->
+ <ion-view hide-tabs="true">
+<div class="bar bar-header item-input-inset">
+    <button class="button button-clear button-light
+    icon icon-right ion-ios-arrow-left" ng-click="detaback()"></button>
+    <label class="item-input-wrapper">
+        <i class="icon icon-ios-search"></i>
+        <input type="search" placeholder="请输入器材名" ui-sref="^.search">
+    </label>
+    <button class="button button-clear button-light" ui-sref="^.messaage">
+    	<i class="icon ion-android-sunny"></i>
+    	21℃
+    	<i class="icon ion-ios-chatbubble-outline"></i>
+    </button>
+</div>
+    <!--内容部分-->
+<ion-content class="has-header">
+	<!--banner图片-->
+	<div class="Img">
+		<img src="img/qiantai/qiantaibanner.fw.png"/>
+	</div>
+	<!--图标-->
+	<div class="row">
+		<div class="col">
+			<i><img src="img/qiantai/pic1.png"/></i>
+			<span>设计装修</span>
+		</div>
+		<div class="col" ui-sref="^.goodeslist">
+			<i><img src="img/qiantai/pic2.png"/></i>
+			<span>设备工程</span>
+		</div>
+		<div class="col">
+			<i><img src="img/qiantai/pic3.png"/></i>
+			<span>家居装饰</span>
+		</div>
+		<div class="col">
+			<i><img src="img/qiantai/pic4.png"/></i>
+			<span>酒水食品</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col" ui-sref="^.jygl">
+			<i><img src="img/qiantai/pic5.png"/></i>
+			<span>经营管理</span>
+		</div>
+		<div class="col" ui-sref="^.eliet">
+			<i><img src="img/qiantai/pic6.png"/></i>
+			<span>商界精英</span>
+		</div>
+		<div class="col" ui-sref="^.inform1">
+			<i><img src="img/qiantai/pic7.png"/></i>
+			<span>人才交流</span>
+		</div>
+		<div class="col" ui-sref="^.xiatab2">
+			<i><img src="img/qiantai/pic8.png"/></i>
+			<span>招标信息</span>
+		</div>
+	</div>
+	<!--动态新闻-->
+	<div class="list">
+		<div class="item">
+			<span class="news">新闻动态：</span>
+			<ion-slide-box does-continue="true" auto-play="true" silde-interval="1000">
+				<ion-slide style="width:100px;">
+					<span>叶东：携程公关的三大不足</span>		
+				</ion-slide>
+				<ion-slide style="width:100px;">
+					<span>叶西：携程公关的三大不足</span>		
+				</ion-slide>
+			</ion-slide-box>
+		</div>
+	</div>
+	<!--限时抢购&名店风采-->
+	<div class="time-limit">
+		<div class="left">
+			<ul>
+				<li>
+					<div class="buy">限时抢购</div>
+					<div>
+						<span id="day"></span>
+						:
+						<span id="hours"></span>
+						:
+						<span id="fen"></span>
+					</div>
+					<div>索爱 CK-M3家庭</div>
+					<button class="button  button-royal">立即抢购</button>
+				</li>
+				<li>
+					<img src="img/qiantai/pic10.png" />
+					<i></i>
+				</li>
+			</ul>
+		</div>
+		<div class="right">
+			<h5>名店风采</h1>
+			<img src="img/qiantai/pic11.png" />
+		</div>
+	</div>
+	<!--商界推荐-->
+	<div class="list" >
+		<div class="item" style="background-color: #eee;">
+				<i class="icon ion-ios-musical-notes" style="color: #663399;margin-right: 10px;"></i>
+			<span>商界推荐</span>
+		</div>
+		<div class="item item-thumbnail-left">
+			<img src="img/qiantai/pic12.png"/>
+			<p>撼森点歌机家庭用KTV高清触摸屏卡<br />拉ok点唱机一体机套装可配音响</p>
+			<span>￥<b>555</b></span>
+			<strong>￥158</strong>
+			<i class="item-note">已售123</i>
+		</div>
+		<div class="item item-thumbnail-left">
+			<img src="img/qiantai/pic13.png"/>
+			<p>InAndon/音王KB505 1000G高清<br />点歌机 家庭ktv 卡拉ok点唱机一体机</p>
+			<span>￥<b>1288</b></span>
+			<strong>￥2228</strong>
+			<i class="item-note">已售123</i>
+		</div>
+	</div>
+</ion-content>
+
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	p{
+		margin: 0;
+	}
+	.button.button-light.button-clear{
+		color: #fff;
+	}
+	.bar-header{
+		background: url(img/qiantai/Top.fw.png) no-repeat;
+		background-size: 100%;
+	}
+	.item-input-wrapper{
+		background: rgba(255,255,255,.8);
+	}
+	.has-header{
+		background: #eee;
+	}
+	.has-header .Img img{
+		width: 100%;
+		height: 100%;
+		float: left;
+	}
+	.has-header .row{
+		text-align: center;
+		background-color: #fff;
+	}
+	.has-header .row .col{
+		padding:10px;
+	}
+	.has-header .row .col img{
+		width: 100%;
+	}
+	.has-header .news{
+		color: #EF5959;
+		font-weight: bold;
+	}
+	div.slider{
+		position: absolute;
+		top: 33%;
+		left:30%;
+	}
+	div.time-limit{
+		width: 100%;
+		height: 8rem;
+		background-color: #fff;
+	}
+	div.time-limit>div{
+		display: inline-block;
+		
+	}
+	div.time-limit>div.left{
+		width: 66%;
+		height: 8rem;
+		float: left;
+		background-color: #fff;
+	}
+	div.time-limit>div.left ul li{
+		width: 50%;
+		float: left;
+		height: 8rem;
+		background-color: #fff;
+		position: relative;
+	}
+	div.time-limit>div.left ul li:nth-child(1){
+		padding:10px 9px;
+		font-size: 12px;
+	}
+	div.time-limit>div.left ul li>div{
+		line-height: 24px;
+	}
+	div.time-limit>div.left ul li>div span{
+		border: 1px solid #ccc;
+		padding: 2px;
+		color: #663399;
+	}
+	div.time-limit>div.left ul li>div.buy{
+		color: #663399;
+	}
+	div.time-limit>div.left ul li:nth-child(2){
+		padding-top: 30px;
+		padding-right: 20px;
+	}
+	div.time-limit>div.left ul li:nth-child(2) i{
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: url(img/qiantai/pic9.png) no-repeat;
+		background-size: 100%;
+	}
+	div.time-limit>div.right{
+		width: 33%;
+		height: 8rem;
+		float: left;
+	}
+	div.time-limit>div.right h5{
+		color: #EF5959;
+		font-weight: bold;
+	}
+	div.time-limit>div.right img{
+		width: 90%;
+	}
+	.button{
+		line-height: 1.4rem;
+		min-height: 1.4rem;
+		padding: 0 2px;
+	}
+	.button-royal{
+		font-size: .6rem;
+	}
+	.item-thumbnail-left p{
+		margin-bottom: 10px;
+	}
+	.item-thumbnail-left span{
+		color: #663399;
+		font-size: 14px;
+	}
+	.item-thumbnail-left span b{
+		font-size: 16px;
+	}
+	.item-thumbnail-left strong{
+		text-decoration: line-through;
+		color: #aaa;
+		font-weight: normal;
+	}
+	li>img{
+		position: absolute;
+		width: 30px;
+		top: 20px;
+		right: 10px;
+	}
+</style>
+ </ion-view>
+

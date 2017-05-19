@@ -1,0 +1,31 @@
+body{background-color: #f2f2f2;}
+.acc-header{background-image: url("../img/bg.fw.png");background-size: 100%;}
+.acc-button{color:#fff;}
+h1{color:#fff;}
+a{text-decoration: none}
+.acc-deposit{width: 100%;height:185px;background: #fff;}
+.acc-deposit>p{color:#663399;text-align:center;font-weight:500;
+    padding-top:40px;font-size:22px;}
+.acc-deposit>p>span{font-size: 40px;}
+.acc-deposit>a{color: #fff;width: 90%;display: block;height: 45px;
+    background: #663399;margin: 15px auto;text-align: center;
+    font-size: 18px;line-height: 45px;border-radius: 8px;}
+.acc-deposit>img{width: 60px;margin: 10px 42%;}
+.acc-detail{background: #fff;margin-top: 15px;font-weight:600;
+    color: #393939;}
+.acc-detail>li:first-child>img{width:17px;margin:13px 10px 0 0;
+    float: left;}
+.acc-detail>li{width: 290px;margin: 0 auto;height: 60px;
+    border-bottom:1px solid #e4e4e4;line-height: 60px;}
+.acc-detail>li.acc-ing>span:first-child{float: left;
+    font-size: 16px;margin-top: -12px;}
+.acc-detail>li.acc-ing>span:nth-child(2){color:#d3d3d3;float: left;
+    font-size: 14px;margin: 15px 0 0 -86px;height: 20px;
+    font-weight: normal;}
+.acc-detail>li.acc-ing>span:last-child{float: right;color:#f15c5c;
+    font-size: 25px;}
+.acc-detail>li:first-child{height:40px;line-height: 40px;
+    line-height: 41px;}
+.acc-detail>li:first-child span{font-size: 16px;}
+.acc-detail>li:last-child{border: none;}
+.acc-detail>li.acc-i>span:nth-child(2){margin-left: -70px;}

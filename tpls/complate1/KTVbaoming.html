@@ -1,0 +1,51 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2;
+				position: relative;
+			}
+			.top{
+				background: url(img/xiangqing/bg.fw.png) no-repeat;
+				background-size: 100%;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top h2{
+				color: white;
+			}
+			.person .item textarea{
+				height: 200px;
+				width: 100%;
+			}
+			.person .item{
+				width: 100%;
+			}
+			.person .input-item{
+				width: 100%;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">我要报名</h2>
+			<button class="button button-clear button-light" ui-sref="^.KTVfabu">发送</button>
+		</ion-header-bar>
+		<!--content-->
+		<ion-content class="content">
+			<ion-list class="person">
+				<ion-item class="item item-input">
+					<input-item class="input-item">
+						<textarea placeholder="留下联系方式吧！"></textarea>
+					</input-item>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	
+</ion-view>

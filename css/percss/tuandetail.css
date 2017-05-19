@@ -1,0 +1,67 @@
+.toUse-top{
+    background:url("../../img/pimg/Top.fw.png") no-repeat;
+    background-size: 100%;
+}
+.toUse-top h1{
+    color:#fff;
+}
+.toUse-top>button{
+    color:#fff;
+}
+.toUse-box{
+    background-color: #f2f2f2;
+}
+.toUse-box .item-thumbnail-left>p{
+    margin-top:10px;
+}
+.toUse-box .item-thumbnail-left>span{
+    display: block;
+    font-size:20px;
+    font-weight:bold;
+    color: #663399;
+    margin-top:10px;
+}
+.toUse-box .item-thumbnail-left>span>i{
+    font-size:16px;
+    font-weight:normal;
+}
+.toUse-box .list{
+    margin-bottom: 10px;
+}
+.toUse-box .item img.pic1{
+    width:70px;
+}
+.toUse-box .item img.pic2{
+    width:60px;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+.toUse-box .item img.pic3{
+    width:20px;
+    vertical-align: top;
+}
+.toUse-box .toUse-first {
+    padding: 10px;
+}
+.toUse-box .toUse-first span{
+    color:#000;
+    padding: 5px;
+    font-size:14px;
+}
+.toUse-box .toUse-last div{
+    padding-top: 10px;
+    text-align: center;
+}
+.toUse-box .toUse-last img{
+    width:30%;
+}
+.toUse-box .toUse-last>p:first-child{
+    float: left;
+}
+.toUse-box .toUse-last>p:last-child{
+    text-align: center;
+}
+.toUse-box .clear{
+    clear: both;
+}

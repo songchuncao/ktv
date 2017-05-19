@@ -1,0 +1,29 @@
+﻿
+<!--修改密码-->
+<!--头部-->
+<ion-view hide-tabs="true">
+    <ion-header-bar class="password-top" align-title="center">
+        <button ng-click="updateback()" class="button button-icon">
+            <i class="ion-ios-arrow-left"></i>
+        </button>
+        <h1 class="title">修改密码</h1>
+        <button class="button button-icon">确认</button>
+    </ion-header-bar>
+    <!--内容-->
+    <ion-content class="password-box">
+        <ion-list>
+            <ion-item>
+                <p>当前密码</p>
+                <input type="password" placeholder="点击输入">
+            </ion-item>
+            <ion-item>
+                <p>新密码</p>
+                <input type="password" placeholder="点击输入">
+            </ion-item>
+            <ion-item>
+                <p>确认新密码</p>
+                <input type="password" placeholder="点击输入">
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

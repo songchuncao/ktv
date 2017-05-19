@@ -1,0 +1,291 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2;
+			}
+			
+			.top{
+				background: #4f3170;
+				border: none;
+				opacity: 0.9;
+			}
+			.top img{
+				width: 35px;
+				vertical-align: middle;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top select{
+				width: 260px;
+				background: #4f3170;
+				color: white;
+				border: none;
+				margin-left: 10px;
+				font-size: 18px;
+				text-align: center;
+			}
+			
+			.bar .title.title-left {
+			    text-align: center;
+			}
+			.content .item1{
+				padding: 0;
+				border: none;
+			}
+			.content .item1 img{
+				width: 100%;
+				
+			}
+			.content img{
+				width: 35px;
+			}
+			.content .row{
+				padding: 0;
+				text-align: center;
+			}
+			.content .col{
+				padding: 0;
+				text-align: center;
+			} 
+			.content .item2 .row{
+				padding: 0;
+				height: 40px;
+				line-height: 40px;
+			}
+			.content .item2 .col-50{
+				padding: 0;
+				font-size: 20px;
+				color: #333333;
+			}
+			.content .item2 .col-50:nth-of-type(1) span{
+				background: url(img/xiangqing/duilan.png) ;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				height: 30px;
+				width: 30px;
+				display: block;
+				float: left;
+				margin-top: 5px;
+			}
+			.content .item2 .col-50:nth-of-type(2) span{
+				background: url(img/xiangqing/duibai.png) ;
+				background-repeat: no-repeat;
+				background-size: 100%;
+				height: 30px;
+				width: 30px;
+				display: block;
+				float: left;
+				margin-top: 5px;
+			}
+			
+			.content .item3 img{
+				float: left;
+			}
+			.content .item3 .col-50{
+				position: relative;
+			}
+			.content .item3 .col-50 p:nth-of-type(2) span:nth-of-type(1){
+				color: #ff9c38;
+				font-size: 30px;
+			}
+			.content .item3 .col-50 p{
+				padding-top: 10px;
+				/*position: relative;*/
+				text-align: center;
+			}
+			.content .item3 .col-50 p:nth-of-type(1){
+				font-size: 18px;
+			}
+			.content .item3 .col-50 p:nth-of-type(1) span{
+				float: left;
+			}
+			.content .item3 .col-50 p:nth-of-type(2) span:nth-of-type(2){
+				color: #ff9c38;
+				display: block;
+				width: 20px;
+				height: 20px;
+				position:absolute;
+				right: 20px;
+				bottom: -5px;
+			}
+			.content .item3 .col-50 p:nth-of-type(2) i{
+				display: inline-block;
+				/*float: left;*/
+				width: 20px;
+				position: absolute;
+				top:37px ;
+			}
+			.content .item3 .col-50:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2){
+				right: 44px;
+			}
+			.content .item3 .col-50:nth-of-type(2)>i{
+				float: right;
+				position: absolute;
+				right: 0;
+				bottom: 20px;
+				display: block;
+			}
+			.content .item4{
+				text-align: center;
+				line-height: 40px;
+			}
+			.content .item4 img{
+				float: left;
+			}
+			.content .item4 i{
+				float: right;
+			}
+			.content .item5{
+				margin-bottom: 20px;
+			}
+			.content .item5 .button{
+				margin: 0;
+				color: white;
+				background:#4f3170 ;
+			}
+			.content .item6.item {
+				padding: 0;
+			}
+			
+			.content .item6 .row{
+				margin: 0;
+				
+			}
+			.content .item6 .col-33{
+				/*padding: 5px;*/
+				height: 50px;
+				line-height: 50px;
+				border: 1px solid #CCCCCC;
+			}
+			.content .wen h2{
+				font-size: 20px;
+			}
+			.content .item7{
+				line-height: 50px;
+				padding: 0;
+				padding-left: 16px;
+				color: black;
+				font-size: 20px;
+				margin-top: 10px;
+			}
+			.content .item7 .button{
+				background:#4f3170  ;
+				color: white;
+				float: right;
+				min-height: 50px;
+			}
+			.content .item8{
+				
+				text-align: center;
+				background:  #f2f2f2;
+				padding: 0;
+				/*padding-top: 16px;*/
+				border: none;
+			}
+			.content .item8 span{
+				float: left;
+				margin-left: 20px;
+				font-size: 20px;
+				margin-top: 30px;
+			}
+			.content .item8 img{
+				float: left;
+				margin-left: 50px;
+				margin-top: 20px;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<select>
+				<option>河南省郑州市金水区农业路</option>
+			</select>
+			<button class="button button-clear button-light">
+				<img src="img/xiangqing/yuan.png"/>
+			</button>
+			<button class="button button-clear button-light">
+				<i class="icon ion-ios-person-outline"></i>
+			</button>
+		</ion-header-bar>
+		
+		<ion-content class="content ">
+			<ion-list>
+				<ion-item class="item1">
+					<img src="img/xiangqing/du.png"/>
+				</ion-item>
+				<ion-item class="item2">
+					<div class="row">
+						<div class="col col-50">
+							<span></span>
+							全日房
+						</div>
+						<div class="col col-50">
+							<span></span>
+							钟点房
+						</div>
+					</div>
+				</ion-item>
+				<ion-item class="item3">
+					<div class="row">
+						<div class="col col-50">
+							<img src="img/xiangqing/shu.png"/>
+							<p>入住时间</p>
+							<p><span>08</span><span>4月</span><i>今天</i></p>
+						</div>
+						<div class="col col-50">
+							<p>离店时间</p>
+							<p><span>09</span><i>明天</i><span>4月</span></p>
+							<i class="icon ion-chevron-right"></i>
+						</div>
+					</div>
+				</ion-item>
+				<ion-item class="item4">
+					<img src="img/xiangqing/qn.png"/>
+					价格不限
+					<i class="icon ion-chevron-right"></i>
+				</ion-item>
+				<ion-item class="item4">
+					<img src="img/xiangqing/fang.png"/>
+					酒店圈/商圈/品牌/
+					<i class="icon ion-chevron-right"></i>
+				</ion-item>
+				<ion-item class="item5">
+					<button class="button button-block">查询</button>
+				</ion-item>
+			</ion-list>
+			<ion-list>
+				<ion-item class="wen">
+					<h2>为您快速找到身边的：</h2>
+				</ion-item>
+				<ion-item class="item6">
+					<div class="row">
+						<div class="col col-33" style="color: #aa76bb;">今日特惠</div>
+						<div class="col col-33" style="color: #aa76bb;">特价机票</div>
+						<div class="col col-33">招待所</div>
+					</div>
+					<div class="row">
+						<div class="col col-33">星级酒店</div>
+						<div class="col col-33">客栈</div>
+						<div class="col col-33">青年旅社</div>
+					</div>
+				</ion-item>	
+				<ion-item class="item7">
+					添加“订酒店”到桌面
+					<button class="button button-clear">
+						<i class="icon ion-android-add"></i>
+					</button>
+				</ion-item>	
+				<ion-item class="item8">
+					<img src="img/xiangqing/baoxian.png"/>
+					<span>到店无房，全额赔付</span>
+				</ion-item>	
+			</ion-list>
+		</ion-content>
+</ion-view>

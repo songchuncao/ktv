@@ -1,0 +1,35 @@
+.ziliao-top{
+    background:url("../../img/pimg/Top.fw.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.ziliao-top h1{
+    color: #fff;
+}
+.ziliao-top>button{
+    color: #fff;
+}
+.zilaio-box{
+    background-color: #f2f2f2;
+}
+.ziliao-first{
+    padding: 0;
+}
+.ziliao-first>p{
+    font-size: 16px;
+    float: left;
+    margin: 16px;
+}
+.ziliao-first img{
+    width:50px;
+    padding:5px;
+}
+.ziliao-first i{
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.zilaio-main{
+    height: 100%;
+    padding-top:20px;
+}

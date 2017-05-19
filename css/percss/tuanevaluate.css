@@ -1,0 +1,73 @@
+.evaluate-top{
+    background:url("../../img/pimg/Top.fw.png") no-repeat;
+    background-size: 100%;
+}
+.evaluate-top h1{
+    color:#fff;
+}
+.evaluate-top>button{
+    color:#fff;
+}
+.evaluate-top .tuanWait-btn{
+    background: rgba(0,0,0,0);
+}
+.evaluate-box{
+    background-color: #f2f2f2;
+}
+.evaluate-box .evaluate-tab .list{
+    margin: 0;
+}
+.evaluate-box .list{
+    margin:10px;
+}
+.evaluate-box .item{
+    padding:0px;
+}
+.evaluate-box .row{
+    color: #999;
+    padding: 0;
+}
+.evaluate-box .col-25{
+    padding: 10px;
+    text-align: center;
+}
+.evaluate-box .col-25.active{
+    color: #663399;
+    border-bottom: 1px solid #663399;
+}
+.evaluate-box .evaluate-first{
+    padding: 15px 15px 10px 15px;
+}
+.evaluate-box .evaluate-first img{
+    width:20%;
+    display: block;
+    float: right;
+}
+.evaluate-box .evaluate-first h2{
+    font-size: 15px;
+}
+.evaluate-box .evaluate-first p{
+    margin-top:10px;
+}
+.evaluate-box .evaluate-last{
+    padding:10px 10px 10px 15px;
+}
+.evaluate-box .evaluate-last img{
+    width:6%;
+    display: block;
+    float: left;
+    clear: both;
+}
+.evaluate-box .evaluate-last button{
+    color: #663399;
+    background-color: #fff;
+    border:1px solid #639;
+    border-radius: 5px;
+}
+.evaluate-box .evaluate-last span{
+    color: #999;
+    padding-left:5px;
+    font-size: 15px;
+    display: block;
+    float: left;
+}

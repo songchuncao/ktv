@@ -1,0 +1,78 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/ionic.min.css">
+    <script src="js/ionic.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>-->
+<ion-view hide-tabs="true">
+    <div class="login-bjs">
+        <div class="content">
+            <div class="list list-inset login-list-no1">
+                <label class="item item-input inputs-no1">
+                    <i><img class="login-imsg-no1" src="img/shouye/telephone.fw.png" alt=""></i>
+                    <input ng-model="user.username" type="text" placeholder="请输入手机号">
+                </label>
+            </div>
+            <div class="list list-inset login-list-no2">
+                <label class="item item-input">
+                    <i><img class="login-imsg-no1" src="img/shouye/key.fw.png" alt=""></i>
+                    <input ng-model="user.password" type="text" placeholder="请输入密码">
+                </label>
+            </div>
+            <div class="padding">
+                <div ng-click="logins()" class="button button-royal button-full login-btn-no1">
+                    登录
+                </div>
+                <p>
+                    <span class="login-fl">免费注册</span>
+                    <span class="login-rl">忘记密码?</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<style>
+    .login-bjs{
+        width:100%;
+        height: 100%;
+        background: url("img/shouye/beijing.fw.png")no-repeat;
+        background-size: 100%;
+        padding-top: 200px;
+    }
+    .login-list-no1{
+        border-radius: 30px;
+    }
+    .login-imsg-no1{
+        width: 30px;
+        height:30px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .card .item:last-child, .list-inset .item:last-child{
+        border-radius: 30px;
+    }
+    .login-list-no2{
+        border-radius: 30px;
+    }
+    .login-btn-no1{
+        border-radius: 30px;
+    }
+    .login-fl{
+        color: #ffffff;;
+        margin-left: 35px;
+    }
+    .login-rl{
+        float: right;
+        color: #ffffff;
+    }
+
+</style>
+</ion-view>
+<!--
+</body>
+</html>-->

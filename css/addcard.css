@@ -1,0 +1,14 @@
+body{background-color: #f2f2f2;}
+.add-header{background-image: url("../img/bg.fw.png");background-size: 100%;}
+.add-button{color:#fff;}
+h1{color:#fff;}
+.add-p{width:100%;height:203px;background:#fff;margin-top:10px;}
+.add-p>li{width: 90%;height:50px;margin:0 auto;line-height: 49px;
+    border-bottom:1px solid #eee;font-size:16px;}
+.add-p>li.oth{border-bottom:none;}
+.add-p>li>span{float: left;}
+.add-p>li>input{float: left;font-size:16px;margin:8px 0 0 12px;}
+.add-submit{color: #fff;width: 90%;display: block;height: 45px;
+    background: #663399;margin: 35px auto;text-align: center;
+    font-size: 18px;line-height: 45px;border-radius: 8px;
+    text-decoration:none;}

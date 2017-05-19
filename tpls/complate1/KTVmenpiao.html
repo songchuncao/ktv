@@ -1,0 +1,120 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.top{
+				background: url(img/xiangqing/bg.fw.png) no-repeat;
+				background-size: 100%;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top h2{
+				color: white;
+			}
+			.person .item1 .myi{
+				margin-left: 10px;
+				height: 19px;
+				position: absolute;
+				top: -8px;
+			}
+			.person .item1 .button{
+				padding: 0;
+				min-height: 23px;
+				line-height: 23px;	
+				position: relative;	
+				color: #999999;
+			}
+			.person .item1{
+				padding: 0;
+			}
+			.person .item1 .col{
+				text-align: center;
+				height: 30px;
+			}
+			.person .item2 h2{
+				color: #333;
+				margin-top: 10px;
+			}
+			.person .item2 h2:nth-of-type(2){
+				margin-bottom: 5px;
+			}
+			.person .item2 p{
+				color: #663399;
+				font-size: 20px;
+			}
+			.person .item2 span{
+				float: right;
+				font-size: 12px;
+				color: #999999;
+			}
+		</style>
+	</head>
+	<body>
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="detaback()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">门票列表</h2>
+		</ion-header-bar>
+		<!--content-->
+		<ion-content class="content">
+			<ion-list class="person">
+				<ion-item class="item item1">
+					<div class="row">
+						<div class="col col-33.3">
+							<button class="button button-clear button-light">全部</button>
+						</div>
+						<div class="col col-33.3">
+							<button class="button button-clear button-light">
+								排序
+						<i class="icon ion-arrow-down-b myi"></i>
+							</button> 
+						</div>
+						<div class="col col-33.3">
+							<button class="button button-clear button-light">优先排序</button>
+						</div>
+					</div>
+				</ion-item>
+				<ion-item class="item-thumbnail-left item2" ui-sref="^.yan">
+					<img src="img/xiangqing/cai.png"/>
+					<h2>蔡依林2016PLAY世界巡回演唱会</h2>
+					<h2>-郑州站</h2>
+					<span>已售123</span>
+					<p>￥290</p>
+				</ion-item>
+				<ion-item class="item-thumbnail-left item2">
+					<img src="img/xiangqing/li.png"/>
+					<h2>2016[看见 李建]世界巡回演唱会</h2>
+					<h2>-郑州站-中国梦 梦之蓝 呈现</h2>
+					<span>已售123</span>
+					<p>￥380</p>
+				</ion-item>
+				<ion-item class="item-thumbnail-left item2">
+					<img src="img/xiangqing/liang.png"/>
+					<h2>梁静茹 你的名字是爱情2016世界巡</h2>
+					<h2>回演唱会郑州站</h2>
+					<span>已售123</span>
+					<p>￥299</p>
+				</ion-item>
+				<ion-item class="item-thumbnail-left item2">
+					<img src="img/xiangqing/zhou.png"/>
+					<h2>永丰乐成 周杰伦2016“地标最强”</h2>
+					<h2>世界巡回演唱会郑州站</h2>
+					<span>已售123</span>
+					<p>￥299</p>
+				</ion-item>
+				<ion-item class="item-thumbnail-left item2">
+					<img src="img/xiangqing/you.png"/>
+					<h2>2016岁月友情演唱会郑州站</h2>
+					<h2>-郑州站</h2>
+					<span>已售123</span>
+					<p>￥199</p>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+		
+	</ion-view>
+	

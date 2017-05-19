@@ -1,0 +1,319 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/ionic.min.css">
+    <script src="js/ionic.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/shouye.css">
+</head>
+<body ng-app="shouye" ng-controller="sy">-->
+<!--头部-->
+    <div class="bar bar-header item-input-inset main-bgs">
+            郑州
+        <!--输入框-->
+            <label class="item-input-wrapper inputs-no1">
+                <i class="icon ion-ios-search placeholder-icon"></i>
+                <input type="search" ui-sref="^.search">
+            </label>
+        <!--两个小图标-->
+            <i><img class="imsg-no1" src="img/shouye/iconfont-taiyang.png" alt=""></i>
+            <i><img class="imsg-no1" src="img/shouye/xinxi.png" alt=""></i>
+    </div>
+    <ion-content class="has-header">
+        <!--图片部分-->
+        <div>
+            <img class="full-image" src="img/shouye/shouye-01.fw.png" alt="">
+        </div>
+        <div style="text-align: center">
+            <!--中间部分的两排的图标-->
+            <div class="row">
+                <div ui-sref="^.KTVteam" class="col">
+                    <i class="cols-no1"><img class="imsg-no2" src="img/shouye/shouye-00.fw.png" alt=""></i>
+                    <span>k歌团购</span>
+                </div>
+                <div ui-sref="^.KTVxiangqing" class="col">
+                    <i class="cols-no2"><img class="imsg-no3" src="img/shouye/shouye-03.fw.png" alt=""></i>
+                    <span>约k</span>
+                </div>
+                <div ui-sref="^.KTVyulezx" class="col">
+                    <i class="cols-no3"><img class="imsg-no4" src="img/shouye/shouye-04.fw.png" alt=""></i>
+                    <span>娱乐咨询</span>
+                </div>
+                <div ui-sref="^.details" class="col">
+                    <i class="cols-no4"><img class="imsg-no4" src="img/shouye/shouye-05.fw.png" alt=""></i>
+                    <span>ktv商界</span>
+                </div>
+            </div>
+            <div class="row">
+                <div ui-sref="^.KTVmenpiao" class="col">
+                    <i class="cols-no5"><img class="imsg-no4" src="img/shouye/shouye-06.fw.png" alt=""></i>
+                    <span>演唱会</span>
+                </div>
+                <div ui-sref="^.KTVkajuanbao" class="col">
+                    <i class="cols-no6"><img class="imsg-no5" src="img/shouye/shouye-07.fw.png" alt=""></i>
+                    <span>卡卷包</span>
+                </div>
+                <div ui-sref="^.KTVmingdian" class="col">
+                    <i class="cols-no7"><img class="imsg-no4" src="img/shouye/shouye-08.fw.png" alt=""></i>
+                    <span>名店海报</span>
+                </div>
+                <div ui-sref="^.KTVxia" class="col">
+                    <i class="cols-no8"><img class="imsg-no4" src="img/shouye/shouye-09.fw.png" alt=""></i>
+                    <span>下一站</span>
+                </div>
+            </div>
+        </div>
+        <!--下面的娱乐头条-->
+        <div class="list">
+            <div class="item item-thumbnail-left">
+                <img class="imsg-no6" src="img/shouye/shouye-10.fw.png" alt="">
+                <p class="tops"><i class="dian"></i><span>唱功不行？	k歌达人教你5天逆袭歌神！</span></p>
+                <p><i class="dian"></i>气质如何展现？会唱歌呀有没有！</p>
+                <p><i class="dian"></i>朋友聚会哪里去？疯狂K歌看这里！</p>
+            </div>
+        </div>
+        <!--下面的限时抢购-->
+        <div class="list">
+            <div ui-sref="^.details" class="item">
+                <div class="fl">
+                    <p>限时抢购</p>
+                    <div class="divs">
+                        <div class="fls">
+                            <p class="fls-no1">歌迷5小时欢唱</p>
+                            <p><span>惊爆价</span><img class="imsg-s1" src="img/shouye/shouye-12.fw.png" alt=""></p>
+                        </div>
+                        <div class="rls">
+                            <img class="imsg-s2" src="img/shouye/shouye-13.fw.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="rl">
+                    <p class="hs">名店风采</p>
+                    <img src="img/shouye/shouye-14.fw.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bk">
+            <i class="imsg-s3"><img src="img/shouye/shouye-15.fw.png" alt=""></i>
+            <span class="pos">猜你喜欢</span>
+        </div>
+        <!--下面两个列表显示-->
+        <div class="list">
+            <div ui-sref="^.details" class="item item-thumbnail-left">
+                <img class="full-image imsg-s4" src="img/shouye/shouye-13.fw.png" alt="">
+                <h2>最爱KTV <i class="item-note"><500m</i></h2>
+                <p>仅售19元，价值166元下午场</p>
+                <p><span class="cols">￥19</span> <i class="item-note">已售123</i></p>
+            </div>
+            <div ui-sref="^.details" class="item item-thumbnail-left">
+                <img class="full-image imsg-s4" src="img/shouye/shouye-no16.png" alt="">
+                <h2>糖果量贩KTV <i class="item-note"><500m</i></h2>
+                <p>仅售19元，价值166元下午场</p>
+                <p><span class="cols">￥78</span> <i class="item-note">已售123</i></p>
+            </div>
+        </div>
+    </ion-content>
+
+<style>
+    .main-bgs{
+        background: url("img/bg.fw.png")no-repeat;
+        background-size: 100%;
+        color: #FFFFFF;
+    }
+    .list{
+        margin-bottom: 0;
+    }
+    .imsg-no1{
+        width: 25px;
+        height: 25px;
+    }
+    .inputs-no1{
+        border-radius: 10px;
+        margin-left: 5px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    .cols-no1{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .imsg-no2{
+        width:85%;
+        margin:5px;
+    }
+    .imsg-no3{
+        width:65%;
+        margin:10px;
+    }
+    .cols-no2{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #DC4968;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .cols-no3{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #68E3D8;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .imsg-no4{
+        width:65%;
+        margin:9px;
+    }
+    .cols-no4{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #4988DA;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .cols-no5{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #FE6C3D;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .cols-no6{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #582785;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .imsg-no5{
+        width:65%;
+        margin:7px;
+    }
+    .cols-no7{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #FF911E;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .cols-no8{
+        content: "";
+        width: 45px;
+        height:45px;
+        display: block;
+        border-radius: 50%;
+        background-color: #34AAFB;
+        margin-left: 18px;
+        margin-bottom: 5px;
+    }
+    .imsg-no6{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .tops{
+        margin-top: 10px;
+    }
+    .dian{
+        content: "";
+        width: 5px;
+        border-radius: 50%;
+        height:5px;
+        display: block;
+        background: #EF5959;
+        float: left;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .fl{
+        float: left;
+        width:60%;
+    }
+    .fl>p{
+        color: #602C91;
+        font-size: 20px;
+    }
+    .rl{
+        float: right;
+        width:40%;
+    }
+    .rl .hs{
+        color: #EF5959;
+        font-size: 20px;
+    }
+    .rl>img{
+        width: 70%;
+        margin-left: 30px;
+    }
+    .fls{
+        float: left;
+        width:50%;
+    }
+    .rls{
+        float: right;
+        width:50%;
+    }
+    .imsg-s1{
+        width:40%;
+    }
+    .imsg-s2{
+        width:100%;
+    }
+    .bk{
+        width:100%;
+        background: #CCCCCC;
+        position: relative;
+    }
+    .imsg-s3>img{
+        margin-left: 23px;
+        padding-top: 5px;
+        width: 25px;;
+    }
+    .pos{
+        position: absolute;
+        top: 8px;
+        left: 50px;
+    }
+    .imsg-s4{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .item h2{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .cols{
+        font-size: 20px;
+        color: #602C91;
+    }
+    .pad{
+        padding:0;
+    }
+</style>
+<!--
+</body>
+</html>-->

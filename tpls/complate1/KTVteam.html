@@ -1,0 +1,114 @@
+<ion-view  hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content .item {
+				border: none;
+			}
+			.top{
+				background: url(img/xiangqing/bg.fw.png) no-repeat;
+				background-size: 100%;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top h2{
+				color: white;
+			}
+			.person img{
+				float: left;
+				position: relative;
+				margin-right: 10px;
+			}
+			.person .button.button-light.button-clear {
+				background:#663399 ;
+				float: right;
+				position: absolute;
+				top: 27px;
+				right: 16px;
+				width: 90px;
+				min-height: 30px;
+			}
+			.person .button.button-light.button-clear i{
+				margin-right: 10px;
+			}
+			.person h2{
+				margin-top: 10px;
+				margin-bottom: 5px;
+				color: #666666;
+			}
+			.person h2+p{
+				color: #999999;
+			}
+			.person .pic img{
+				float: left;
+				width: 100px;
+			}
+			.person .num p{
+				float: left;
+				line-height: 32px;
+				margin-right: 10px;
+			}
+			.person .num img{
+				float: left;
+				width: 200px;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">组团K歌</h2>
+			<button class="button button-clear button-light">发布</button>
+		</ion-header-bar>
+		<!--content-->
+		<ion-content class="content">
+			<ion-list class="person">
+				<ion-item class="item">
+					<img src="img/xiangqing/person.png"/>
+					<h2>落叶摇情、</h2>
+					<p>6分钟前</p>
+					<button class="button button-clear button-light">
+						<i class="icon ion-person-add"></i>报名
+					</button>
+				</ion-item>
+				<ion-item class="item">
+					<p style="color: #333333;">晚上7点，酒吧一条街麦噶KTV808房间，有神秘惊喜，<br/>不见不散！我的微信号：wechat0000</p>
+				</ion-item>
+				<ion-item class="item pic">
+					<img src="img/xiangqing/s-04.fw.png"/>
+					<img src="img/xiangqing/s-05.fw.png"/>
+					<img src="img/xiangqing/s-06.fw.png"/>
+				</ion-item>
+				<ion-item class="item num">
+					<p style="color: #999999" >已报名5人</p>
+					<img src="img/xiangqing/tou.png"/>
+				</ion-item>
+			</ion-list>
+			<ion-list class="person">
+				<ion-item class="item">
+					<img src="img/xiangqing/s-07.fw.png"/>
+					<h2>周千千</h2>
+					<p>8分钟前</p>
+					<button class="button button-clear button-light">
+						<i class="icon ion-person-add"></i>报名
+					</button>
+				</ion-item>
+				<ion-item class="item">
+					<p style="color: #333333;">今晚朋友生日，大家晚上9点快来农业路麦克风KTV666<br/>房间一跨嗨！</p>
+				</ion-item>
+				<ion-item class="item pic">
+					<img src="img/xiangqing/s-08.fw.png"/>
+					<img src="img/xiangqing/s-09.fw.png"/>
+					<img src="img/xiangqing/s-10.fw.png"/>
+				</ion-item>
+				<ion-item class="item num">
+					<p style="color: #999999" >已报名5人</p>
+					<img src="img/xiangqing/tou1.png"/>
+				</ion-item>
+			</ion-list>
+		</ion-content>
+</ion-view>

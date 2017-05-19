@@ -1,0 +1,31 @@
+.newde-header{
+    background: url("../img/bg.fw.png")no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+.newde-imgs{
+    width: 27px;
+}
+.newdeta-h-font{
+    padding:10px;
+}
+.newdeta-h-font>h5{
+    font-size: 20px;
+}
+.newdeta-h-font>p{
+    font-size: 14px;
+    color: #BEBEBE;
+}
+.newsdeta-zzs{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    top:0;
+}
+.news-zz{
+    position: absolute;
+    width:100%;
+    bottom:0;
+    background: #fff;
+}

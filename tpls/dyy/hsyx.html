@@ -1,0 +1,106 @@
+
+		<div class="bar bar-header">
+			<button class="button button-clear button-light" ng-click="hsyxBack()" >
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h1 class="title">皇声音响</h1>
+		</div>
+		<ion-content class="has-header">
+			<p>02-24 16:06</p>
+			<div class="list">
+				<div class="item item-avatar">
+					<img src="img/qiantai/x-06.png"/>
+					<span class="bj1">？</span>
+				</div>
+				<div class="item item-avatar">
+					<img src="img/qiantai/x-01.png"/>
+					<span class="bj2">您好，有什么可以帮助你的吗？</span>
+				</div>
+			</div>
+		</ion-content>
+		<ion-footer-bar class="bar-light">
+			<button class="button button-clear">
+				<i class="icon ion-ios-plus-outline"></i>
+			</button>
+			<input type="text"/>
+	  		<button class="button last" style="background-color: #663399;color: #fff;">
+			      发送
+		    </button>
+	</ion-footer-bar>
+
+	<style type="text/css">
+		
+		.bar-header{
+			background: url(img/qiantai/Top.fw.png) no-repeat;
+			background-size: 100%;
+			color: #fff;
+		}
+		.has-header{
+			background: #eee;
+		}
+		.button.button-light.button-clear{
+			color: #fff;
+		}
+		h1{
+			color: #fff;
+		}
+		.bar .title{
+			font-size: 20px;
+		}
+		p{
+			text-align: center;
+			font-size: 20px;
+			margin: 10px 0px;
+		}
+		.item{
+			background-color: #eee;
+			border: none;
+		}
+		.item-avatar:first-child>img:first-child{
+    		left: 85%;
+    	}
+    	.item-avatar{
+    		position: relative;
+    	}
+    	.item-avatar span.bj1{
+    		display: block;
+    		width: 40px;
+    		height: 50px;
+    		position: absolute;
+    		text-align: center;
+    		line-height: 50px;
+    		right: 20%;
+    		top: 20%;
+    		background: url(img/qiantai/x-9.fw.png) no-repeat;
+    		background-size: 100% 100%;
+    		color: #000;
+    		font-weight: 900;
+    	}
+    	.item-avatar span.bj2{
+    		display: block;
+    		width:15rem;
+    		height: 40px;
+    		background: url(img/qiantai/x-8.fw.png) no-repeat;
+    		background-size: 100% 100%;
+    		color: #000;
+    		text-align: center;
+    		line-height: 40px;
+    		font-size: 13px;
+    	}
+    	input[type="text"]{
+    		background-color: #ccc;
+    		border-radius:5px;
+    	}
+    	.bar-light input{
+    		width: 245px;
+    		margin: 0 15px;
+    	}
+    	
+	</style>
+	<script type="text/javascript">
+	 	var app=angular.module("myApp",["ionic"]);
+    	app.controller("myCtrl",function ($scope) {
+        
+    	})
+	</script>
+

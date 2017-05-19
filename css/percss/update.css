@@ -1,0 +1,27 @@
+.password-top{
+    background:url("../../img/pimg/Top.fw.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.password-top h1{
+    color:#fff;
+}
+.password-top>button{
+    color:#fff;
+    font-size: 15px;
+}
+.password-box{
+    background-color: #f2f2f2;
+}
+.password-box .item{
+    padding:10px;
+}
+.password-box .item p{
+    color:#000;
+    margin-top: 8px;
+    margin-right: 10px;
+    float: left;
+}
+.password-box .item input{
+    float: left;
+}

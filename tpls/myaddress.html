@@ -1,0 +1,20 @@
+<ion-view hide-tabs="true">
+    <ion-header-bar class="my-header">
+        <button class="button button-icon my-button" ng-click="myback()">
+            <i class="icon ion-ios-arrow-left"></i>
+        </button>
+        <h1 class="title">我的店址</h1>
+    </ion-header-bar>
+    <ion-content class="mybg">
+        <ul class="my-address">
+            <li><span>省&nbsp;市&nbsp;县</span>
+                <!--<input type="text" placeholder="河南、郑州市、金水区"></li>-->
+                <ionic-city-picker options='vm.CityPickData1'></ionic-city-picker></li>
+            <li><span>详细地址</span>
+                <input type="text" placeholder="河南省郑州市金水区招银大厦2105"></li>
+            <li><span>经&nbsp;玮&nbsp;度</span>
+                <input type="text" placeholder="点击获取经纬度"></li>
+        </ul>
+
+    </ion-content>
+</ion-view>

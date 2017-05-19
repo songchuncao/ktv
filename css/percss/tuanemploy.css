@@ -1,0 +1,70 @@
+.employ-top{
+    background:url("../../img/pimg/Top.fw.png") no-repeat;
+    background-size: 100%;
+}
+.employ-top h1{
+    color:#fff;
+}
+.employ-top>button{
+    color:#fff;
+}
+.employ-box{
+    background-color: #f2f2f2;
+}
+.employ-box .employ-tab .list{
+    margin: 0;
+}
+.employ-box .list{
+    margin:10px;
+}
+.employ-box .item{
+    padding:0px;
+}
+.employ-box .row{
+    color: #999;
+    padding: 0;
+}
+.employ-box .col-25{
+    padding: 10px;
+    text-align: center;
+}
+.employ-box .col-25.active{
+    color: #663399;
+    border-bottom: 1px solid #663399;
+}
+.employ-box .employ-first{
+    padding: 15px 15px 10px 15px;
+}
+.employ-box .employ-first img{
+    width:20%;
+    display: block;
+    float: right;
+}
+.employ-box .employ-first h2{
+    font-size: 15px;
+}
+.employ-box .employ-first p{
+    margin-top:10px;
+}
+.employ-box .employ-last{
+    padding:10px 10px 10px 15px;
+}
+.employ-box .employ-last img{
+    width:6%;
+    display: block;
+    float: left;
+    clear: both;
+}
+.employ-box .employ-last button{
+    color: #663399;
+    background-color: #fff;
+    border:1px solid #639;
+    border-radius: 5px;
+}
+.employ-box .employ-last span{
+    color: #999;
+    padding-left:5px;
+    font-size: 15px;
+    display: block;
+    float: left;
+}

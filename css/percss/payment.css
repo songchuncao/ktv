@@ -1,0 +1,57 @@
+.pay-top{
+    background:url("../../img/pimg/Top.fw.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.pay-top h1{
+    color:#fff;
+}
+.pay-top>button{
+    color:#fff;
+}
+.pay-box{
+    background-color: #f2f2f2;
+}
+.pay-item>p{
+    margin-top:10px;
+}
+.pay-item>span{
+    display: block;
+    font-size:20px;
+    font-weight:bold;
+    color: #663399;
+    margin-top:10px;
+}
+.pay-item>span>i{
+    font-size:16px;
+    font-weight:normal;
+}
+.pay-list{
+    margin: 10px 0;
+}
+.pay-pic1{
+    width:70px;
+}
+.pay-pic2{
+    width:60px;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+.pay-btn{
+    width:90%;
+    color: #fff;
+    background-color: #663399;
+    margin:15px;
+}
+.pay-pic3{
+    width:20px;
+    vertical-align: top;
+}
+.pay-first{
+    padding: 10px;
+}
+.pay-first span{
+    color:#000;
+    padding: 5px;
+}

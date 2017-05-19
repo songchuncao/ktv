@@ -1,0 +1,188 @@
+<ion-view hide-tabs="true">
+		<style>
+			body{
+				font-family: "微软雅黑";
+			}
+			.content{
+				background: #f2f2f2;
+			}
+			
+			.top{
+				background: url(img/xiangqing/bg.fw.png) no-repeat;
+				background-size: 100%;
+			}
+			.top .button.button-light.button-clear {
+			    color: white;
+			}
+			.top h2{
+				color: white;
+			}
+			.bar .title.title-left {
+			    text-align: center;
+			}
+			
+			.shi{
+				margin-top: 45px;
+				padding: 16px;
+				background: #f2f2f2;
+			}
+			.row .col-33{
+				text-align: center;
+				border: 1px solid #663399 ;
+				color: #663399;
+			}
+			.row .col{
+				padding: 0;
+				height: 30px;
+				line-height: 30px;
+				background: white;
+			}
+			.row{
+				border-radius: 5px;
+				padding: 0;
+			}
+			
+			.row .active{
+				background:#663399 ;
+				color: white;
+				/*line-height: 24px;*/
+			}
+			.content {
+				margin-top: 62px;
+			}
+			.content .list{
+				width: 92%;
+				margin: 0 auto;
+				/*background:#663399 ;*/
+			}
+			.content .hui>img{
+				width: 140px;
+				height: 140px;
+				float: left;
+				margin-right: 15px;
+			}
+			.content .hui h2{
+				/*float: left;
+				width: 225px;*/
+				color:#f15a5a ;
+				padding-top: 20px;
+				font-size: 20px;
+				padding-bottom: 10px;
+			}
+			.content .hui p{
+				line-height: 1.5;
+			}
+			.content .item1{
+				padding: 0;
+				position: relative;
+				margin-bottom: 20px;
+				/*margin-bottom: 20px;*/
+				/*padding-left: 0;*/
+			}
+			.content .huiN img{
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				right: 10px;
+				bottom: 5px;
+			}
+			.contentN .list1{
+				display: none;
+			}
+			.contentN .fristL{
+				display: block;
+			}
+		</style>
+	
+		<!--头部-->
+		<ion-header-bar class="top">
+			<button class="button button-clear button-light" ng-click="fanhui()">
+				<i class="icon ion-ios-arrow-left"></i>
+			</button>
+			<h2 class="title">卡卷包</h2>
+		</ion-header-bar>
+		<div class="shi">
+			<div class="row">
+				<div class="col col-33 active">未使用(2)</div>
+				<div class="col col-33">已使用(2)</div>
+				<div class="col col-33">已过期(2)</div>
+			</div>
+		</div>
+		<!--content-->
+		<ion-content class="content">
+			<div class="contentN">
+				<ion-list class="list1 fristL">
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/favourable.png"/>
+							<div class="huiN">
+								<h2>满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/weishiyong.png"/>
+							</div>
+						</div>
+					</ion-item>
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/favourable.png"/>
+							<div class="huiN">
+								<h2>满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/weishiyong.png"/>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>	
+				<ion-list class="list1">
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/hui.png"/>
+							<div class="huiN">
+								<h2 style="color: #ccc;">满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/yhui.png"/>
+							</div>
+						</div>
+					</ion-item>
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/hui.png"/>
+							<div class="huiN">
+								<h2 style="color: #ccc;">满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/yhui.png"/>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>	
+				<ion-list class="list1">
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/hui.png"/>
+							<div class="huiN">
+								<h2 style="color: #ccc;">满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/yhui.png"/>
+							</div>
+						</div>
+					</ion-item>
+					<ion-item class="item1">
+						<div class="hui">
+							<img src="img/xiangqing/hui.png"/>
+							<div class="huiN">
+								<h2 style="color: #ccc;">满99减5</h2>
+								<p>使用范围：正大kTV设备公司</p>
+								<p>截止日期：2016.05.01</p>
+								<img src="img/xiangqing/yhui.png"/>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>	
+			</div>
+		</ion-content>
+</ion-view>

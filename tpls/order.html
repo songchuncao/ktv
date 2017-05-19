@@ -1,0 +1,49 @@
+<!--样式-->
+<style>
+    .order-header{
+        background: url("img/bg.fw.png")no-repeat;
+        background-size: 100%;
+    }
+    .order-header>h1{
+        color: #fff;
+    }
+    .order-subheaders{
+        background-image:none;
+    }
+    .order-subheader>li{
+        margin-left: 5px;
+        text-align: center;
+        color: #959595;
+        border-bottom: 1px solid #7E55A5;
+        height: 35px;
+    }
+    .order-bgcols{
+        background: #F3F3F4;
+    }
+</style>
+<ion-view hide-tabs="true">
+    <div class="bar bar-header order-header">
+        <button class="button button-clear button-light"><i class="icon ion-ios-arrow-left"></i></button>
+        <h1 class="title">订单管理</h1>
+        <button class="button button-clear button-light">编辑</button>
+    </div>
+    <div class="bar bar-subheader order-subheaders">
+            <ul class="row order-subheader">
+                <li class="col">全部</li>
+                <li class="col">待验证</li>
+                <li class="col">已验证</li>
+                <li class="col">已完成</li>
+            </ul>
+    </div>
+    <ion-content class="has-header has-subheader order-bgcols">
+        <ul class="list list-inset">
+            <li class="item">
+                    <p>麦克疯量贩式KTV6小时欢唱</p>
+                    <p>数量：1&nbsp;&nbsp;&nbsp;总价：￥68</p>
+                    <img src="img/s18.png" alt="">
+                <hr/>
+                <p><i class="icon ion-ios-clock-outline"></i> 2017-06-16</p>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
